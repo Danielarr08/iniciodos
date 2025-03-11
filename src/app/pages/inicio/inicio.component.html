@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio del Parcial 2</title>
+
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- Estilos CSS -->
+    <style>
+        /* Estilos Generales */
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            background-color: #f7f1e1; /* Fondo nude claro */
+        }
+
+        body {
+            display: flex;
+            flex-direction: row;
+            height: 100vh; /* Asegura que ocupe todo el alto de la ventana */
+        }
+
+        /* Menú Lateral */
+        nav {
+            width: 250px;
+            background-color: #d9b99d; /* Color nude medio */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 20px 0;
+        }
+
+        nav a {
+            color: #fff;
+            font-size: 1.2rem;
+            text-decoration: none;
+            margin: 15px 0;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+
+        nav a:hover {
+            color: #2a2a2a;
+            transition: color 0.3s ease;
+        }
+
+        /* Contenedor de Información */
+        .info-container {
+            margin-left: 250px; /* Ajusta el espacio del menú */
+            width: 60%; /* Ajusta el tamaño del contenedor */
+            height: auto; /* Ajusta la altura según el contenido */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(255, 255, 255, 0.75); /* Fondo blanco con 75% de transparencia */
+            border-radius: 15px;
+            box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Título */
+        .info-title {
+            font-size: 2.8rem;
+            color: #2a2a2a;
+            margin-bottom: 20px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        /* Descripción */
+        .info-description {
+            font-size: 1.2rem;
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 30px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- Menú Lateral -->
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="https://librosp.netlify.app/">Libros</a>
+        <a href="https://productosp.netlify.app/">Productos</a>
+        <a href="https://eparcialuno.netlify.app/">Ejercicio 1er Parcial</a>
+        <a href="/acerca_de">Acerca de</a>
+    </nav>
+
+    <!-- Contenedor de Información -->
+    <div class="info-container">
+        <h1 class="info-title">Bienvenido al Portafolio del Parcial 2</h1>
+        <p class="info-description">
+            Somos alumnos de la Universidad Tecnológica de San Juan del Río, y día a día aprendemos cosas nuevas en la
+            materia de Desarrollo Web Profesional. En esta ocasión, tuvimos la oportunidad de poner en práctica lo que
+            vimos en el último ejercicio con el profesor.
+        </p>
+    </div>
+
+</body>
+
+</html>

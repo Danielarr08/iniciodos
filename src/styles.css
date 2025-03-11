@@ -1,0 +1,11 @@
+/* Fondo de la página */
+body {
+    background-image: url('https://img.freepik.com/free-photo/gradient-peach-background-with-pink-shades_53876-105240.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
